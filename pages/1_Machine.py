@@ -28,8 +28,8 @@ def display_data_info():
     col1, col2 = st.columns(2)
     with col1:
         st.subheader('Data Percentage')
-        positive_images = os.listdir("dataset training/happy/")
-        negative_images = os.listdir("dataset training/sad/")
+        positive_images = os.listdir("dataset/happy/")
+        negative_images = os.listdir("dataset/sad/")
         chart_data = pd.DataFrame(
             {
                 'happy': [len(positive_images)],

@@ -5,8 +5,8 @@ import math
 st.set_page_config(page_title="C4 PPDM - Dataset", page_icon="😎")
 st.title("Dataset 📂")
 
-image_folder_happy = "dataset training/happy/"
-image_folder_sad = "dataset training/sad/"
+image_folder_happy = "dataset/happy/"
+image_folder_sad = "dataset/sad/"
 
 type = st.radio("Select type", ('All', 'Happy', 'Sad'), index=0, key='type')
 

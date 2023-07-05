@@ -21,7 +21,7 @@ def glcm_matrix(image):
 X = []  # Features
 y = []  # Labels
 
-image_path = "dataset training/"
+image_path = "dataset/"
 
 def load_images_and_extract_features(directory, label, X, y):
     image_paths = os.listdir(directory)
